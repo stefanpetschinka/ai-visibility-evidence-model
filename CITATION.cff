@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you reference this model, please cite it as below."
+title: "AI Visibility Evidence Model"
+type: dataset
+authors:
+  - family-names: "Petschinka"
+    given-names: "Stefan"
+    orcid: "https://orcid.org/0009-0009-8223-0339"
+date-released: 2026-07-30
+url: "https://www.richresults.ai/evidence.html"
+repository-code: "https://github.com/stefanpetschinka/ai-visibility-evidence-model"
+abstract: "A reference model that orders the publisher-side factors behind AI visibility by strength of evidence. It defines five factors (Topical Relevance, Machine Access, Entity Consistency, Extractability, Independent Corroboration) and assigns each a documented evidence grade based on peer-reviewed research and official platform documentation."
+keywords:
+  - "Answer Engine Optimization"
+  - "AEO"
+  - "AI Visibility"
+  - "Generative Engine Optimization"
+  - "Entity Building"
+license: MIT
