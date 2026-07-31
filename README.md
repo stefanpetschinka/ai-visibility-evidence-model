@@ -6,7 +6,7 @@ A reference model that orders the publisher-side factors behind AI visibility by
 
 This repository is the Markdown mirror of the reference document. The website version is canonical; grades move as evidence accumulates, and every change to the model is committed here with a dated history.
 
-**Status: July 30, 2026**
+**Status: July 31, 2026**
 
 ---
 
@@ -14,9 +14,9 @@ This repository is the Markdown mirror of the reference document. The website ve
 
 **What the AI Visibility Evidence Model is.**
 
-The AI Visibility Evidence Model is a reference model that orders the publisher-side factors behind AI visibility by strength of evidence. It defines five factors, Topical Relevance, Machine Access, Entity Consistency, Extractability and Independent Corroboration, and assigns each a documented evidence grade based on peer-reviewed research and official platform documentation.
+The AI Visibility Evidence Model is a reference model that orders the publisher-side factors behind AI visibility by strength of evidence. It defines five factors, Topical Relevance, Machine Access, Entity Consistency, Extractability and Independent Corroboration, and assigns each a documented evidence grade based on peer-reviewed research, controlled preprints and official platform documentation.
 
-The model exists because the field lacks exactly this: a single, verifiable reference that separates what research demonstrates from what marketing claims. Every factor in the model carries its grade and its sources, so every statement on this page can be checked against the primary literature listed in the source register below.
+The model exists because the field still lacks a concise publisher-side reference that maps the main actionable factors to explicit evidence grades and primary sources. Every factor in the model carries its grade and its sources, so every statement on this page can be checked against the primary literature listed in the source register below.
 
 ## 02 Purpose and Boundary
 
@@ -98,6 +98,8 @@ An independent audit of eight AI search engines found collectively incorrect ans
 **How this model was compiled.**
 
 Every claim in this model was verified against its source: the papers, official documentation and datasets listed in the register below. The synthesis was additionally checked for completeness and counter-arguments by prompting several AI systems with the same evidence question without access to this model. Convergence across systems is an editorial plausibility check, not independent scientific validation: systems share training data, sources and failure modes, and can converge on the same popular error.
+
+**Disclosure:** This reference model is published by richresults.ai and authored by Stefan Petschinka, who also developed the linked AEO Mastery Framework. The source assessment, synthesis and evidence grades are the author's own work and have not undergone external peer review.
 
 Three limits apply to everything on this page. Production systems are non-deterministic, so no single observation proves an effect. Models and retrieval methods change without notice, so findings carry dates. And no one, including the best published research, can causally isolate a single intervention inside a live answer engine. Where this page says the evidence ends, it ends.
 
