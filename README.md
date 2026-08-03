@@ -16,7 +16,7 @@ This repository is the Markdown mirror of the reference document. The website ve
 
 The AI Visibility Evidence Model is a reference model that orders the publisher-side factors behind AI visibility by strength of evidence. It defines five factors: Topical Relevance, Machine Access, Entity Consistency, Extractability and Independent Corroboration, and assigns each a documented evidence grade based on peer-reviewed research, controlled preprints and official platform documentation.
 
-The model exists because the field still lacks a concise publisher-side reference that maps the main actionable factors to explicit evidence grades and primary sources. Every factor in the model carries its grade and its sources, so every statement on this page can be checked against the primary literature listed in the source register below.
+The model exists because the field still lacks a concise publisher-side reference that maps the main actionable factors to explicit evidence grades and primary sources. Every factor in the model carries its grade and its sources, so every statement on this page can be checked against the original studies and official documentation listed below.
 
 ## 02 Purpose and Boundary
 
@@ -53,7 +53,7 @@ Content that directly addresses the actual question is the strongest documented 
 
 A source that crawlers cannot reach cannot be retrieved, and a source that cannot be retrieved cannot be used for the content of an answer. Machine Access covers crawl permissions for the relevant bots, index presence, crawlable and renderable main content, and firewall configurations that do not silently block AI crawlers. Platform documentation is explicit on both sides of this gate. OpenAI requires OAI-SearchBot access for a site's content to be used in ChatGPT search answers; excluded pages can still appear as navigational links [12]. Google requires indexed, snippet-eligible pages and states that its AI features run on the same index and ranking systems as classical search [11].
 
-**Mechanism: gate. Evidence grade: B, official platform documentation.** Missing access prevents the content of a page from being used as a rule; it creates no advantage, no guarantee of retrieval and no guarantee of citation [11, 12].
+**Mechanism: gate. Evidence grade: B, official platform documentation.** Without access, a page's content cannot be retrieved for use in an answer; access alone creates no advantage, no guarantee of retrieval and no guarantee of citation [11, 12].
 
 ### Factor 3: Entity Consistency
 
@@ -69,7 +69,7 @@ A model can only cite what it can extract. The position of information in the mo
 
 ### Factor 5: Independent Corroboration
 
-Mentions by third parties are the classic path into a model's parametric knowledge, and the evidence for this factor is best read as three separate statements. First, controlled research shows that the frequency and spread of an entity in training data causally determine what a model knows about it without searching; the study makes no claim about the independence of those documents [5]. Second, a preprint analysis reports a strong preference of several AI search systems for earned media over brand-owned content, based on the authors' own source classification [8]. Third, the claim that the independence or authenticity of a mention itself causes higher AI visibility is not demonstrated by either source. The practical principle stands on methodological grounds, not on [5]: self-published corroboration networks replicate one voice in many costumes, provide no independent confirmation, and can violate platform guidelines; for manufactured mentions no reliable evidence of a positive effect exists.
+Mentions by third parties are the classic path into a model's parametric knowledge, and the evidence for this factor is best read as three separate statements. First, controlled research shows that the frequency of entity-related evidence across training documents causally affects what a model knows about the entity without searching; the study makes no claim about the independence of those documents [5]. Second, a preprint analysis reports that several AI search systems show a strong preference for earned media over brand-owned content, based on the authors' own source classification [8]. Third, the claim that the independence or authenticity of a mention itself causes higher AI visibility is not demonstrated by either source. The practical principle stands on methodological grounds, not on [5]: self-published corroboration networks replicate one voice in many costumes, provide no independent confirmation, and can violate platform guidelines; for manufactured mentions no reliable evidence of a positive effect exists.
 
 **Mechanism: driver for the parametric layer. Evidence grades, split:** B for training-data frequency as a causal factor in parametric knowledge [5]; C for the observed earned-media preference [8]; unsupported for independence itself as a causal visibility factor.
 
@@ -83,15 +83,15 @@ Mentions by third parties are the classic path into a model's parametric knowled
 
 **Schema as a citation switch.** Structured data clarifies and disambiguates. As a direct citation driver for AI features it is officially not required [11], and no causal evidence exists for language-model citations outside search pipelines.
 
-**AI ranking positions as a metric.** Answers vary heavily between identical runs, so a position from a single run is not a reliable rank [9]. Positions become meaningful only as distributions across repeated, paraphrased measurements with uncertainty intervals; visibility is a share, not a single rank.
+**AI ranking positions as a metric.** Answers vary widely across otherwise identical runs, so a position from a single run is not a reliable rank [9]. Positions become meaningful only as distributions across repeated, paraphrased measurements with uncertainty intervals; visibility is a share, not a single rank.
 
-**Manufactured mentions.** No reliable evidence exists for a positive effect of manufactured or self-produced mentions. In the literature the line between optimization and manipulation does not run along effectiveness anyway, but along truthfulness, verifiable evidence, the separation of content from model instructions, and disclosure of commercial intent [9]. What this model states about corroboration rests on training-data frequency [5] and an observed earned-media preference [8]; neither of those works examines self-produced mentions.
+**Manufactured mentions.** No reliable evidence exists for a positive effect of manufactured or self-produced mentions. In the literature, the line between optimization and manipulation is not determined by effectiveness, but by truthfulness, verifiable evidence, the separation of content from model instructions, and disclosure of commercial intent [9]. What this model states about corroboration rests on training-data frequency [5] and an observed earned-media preference [8]; neither of those works examines self-produced mentions.
 
 ## 06 Visibility Is Not Citation Fidelity
 
 **Being cited and being cited correctly are different outcomes.**
 
-An independent audit of eight AI search engines found collectively incorrect answers to more than 60 percent of source-attribution queries, with premium systems frequently confidently wrong [10]. For any organization this cuts both ways: citation counts overstate control over what is actually said, and citation frequency alone says little about whether an organization is represented correctly and attributed to the original source. A measurement program should therefore track fidelity, whether a system's statements about the entity are accurate, separately from visibility.
+An independent audit of eight AI search engines found that the engines collectively provided incorrect answers to more than 60 percent of source-attribution queries, with premium systems frequently confidently wrong [10]. For any organization, this has two consequences: citation counts overstate control over what is actually said, and citation frequency alone says little about whether an organization is represented correctly and attributed to the original source. A measurement program should therefore track fidelity, whether a system's statements about the entity are accurate, separately from visibility.
 
 ## 07 Method Note
 
