@@ -8,6 +8,10 @@ This repository is the Markdown mirror of the reference document. The website ve
 
 **Status: July 31, 2026**
 
+**Version:** 1.0  
+**DOI — Version 1.0:** [10.5281/zenodo.21766951](https://doi.org/10.5281/zenodo.21766951)  
+**DOI — All versions:** [10.5281/zenodo.21766950](https://doi.org/10.5281/zenodo.21766950)
+
 ---
 
 ## 01 Definition
