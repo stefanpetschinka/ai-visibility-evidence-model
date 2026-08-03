@@ -166,6 +166,6 @@ The feature article on the architecture the evidence points to: entity resolutio
 
 ## License
 
-This reference document is released under the MIT License.
+This reference document is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0).
 
-See [LICENSE](LICENSE) for details.
+See [LICENSE](LICENSE) for the full legal code.
