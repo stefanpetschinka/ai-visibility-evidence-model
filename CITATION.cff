@@ -12,7 +12,7 @@ version: "1.0"
 date-released: "2026-07-30"
 doi: "10.5281/zenodo.21766951"
 url: "https://www.richresults.ai/evidence.html"
-repository: "https://github.com/stefanpetschinka/ai-visibility-evidence-model"
+repository-code: "https://github.com/stefanpetschinka/ai-visibility-evidence-model"
 
 abstract: "A reference model that orders the publisher-side factors behind AI visibility by strength of evidence. It defines five factors: Topical Relevance, Machine Access, Entity Consistency, Extractability and Independent Corroboration, and assigns each a documented evidence grade based on peer-reviewed research, controlled preprints and official platform documentation."
 
