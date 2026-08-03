@@ -1,19 +1,48 @@
 cff-version: 1.2.0
-message: "If you reference this model, please cite it as below."
+message: "Please cite the report using the preferred citation below."
 title: "AI Visibility Evidence Model"
 type: dataset
+
 authors:
   - family-names: "Petschinka"
     given-names: "Stefan"
     orcid: "https://orcid.org/0009-0009-8223-0339"
-date-released: 2026-07-30
+
+version: "1.0"
+date-released: "2026-07-30"
+doi: "10.5281/zenodo.21766951"
 url: "https://www.richresults.ai/evidence.html"
-repository-code: "https://github.com/stefanpetschinka/ai-visibility-evidence-model"
-abstract: "A reference model that orders the publisher-side factors behind AI visibility by strength of evidence. It defines five factors (Topical Relevance, Machine Access, Entity Consistency, Extractability, Independent Corroboration) and assigns each a documented evidence grade based on peer-reviewed research and official platform documentation."
+repository: "https://github.com/stefanpetschinka/ai-visibility-evidence-model"
+
+abstract: "A reference model that orders the publisher-side factors behind AI visibility by strength of evidence. It defines five factors: Topical Relevance, Machine Access, Entity Consistency, Extractability and Independent Corroboration, and assigns each a documented evidence grade based on peer-reviewed research, controlled preprints and official platform documentation."
+
 keywords:
+  - "AI Visibility Evidence Model"
+  - "AI Visibility"
   - "Answer Engine Optimization"
   - "AEO"
-  - "AI Visibility"
   - "Generative Engine Optimization"
-  - "Entity Building"
-license: MIT
+  - "GEO"
+  - "Evidence Grades"
+  - "Topical Relevance"
+  - "Machine Access"
+  - "Entity Consistency"
+  - "Extractability"
+  - "Independent Corroboration"
+  - "Citation Fidelity"
+
+license: CC-BY-4.0
+
+preferred-citation:
+  type: report
+  title: "The AI Visibility Evidence Model"
+  authors:
+    - family-names: "Petschinka"
+      given-names: "Stefan"
+      orcid: "https://orcid.org/0009-0009-8223-0339"
+  year: 2026
+  version: "1.0"
+  doi: "10.5281/zenodo.21766951"
+  publisher:
+    name: "richresults.ai"
+  url: "https://doi.org/10.5281/zenodo.21766951"
