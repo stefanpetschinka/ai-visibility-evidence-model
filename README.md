@@ -14,7 +14,7 @@ This repository is the Markdown mirror of the reference document. The website ve
 
 **What the AI Visibility Evidence Model is.**
 
-The AI Visibility Evidence Model is a reference model that orders the publisher-side factors behind AI visibility by strength of evidence. It defines five factors, Topical Relevance, Machine Access, Entity Consistency, Extractability and Independent Corroboration, and assigns each a documented evidence grade based on peer-reviewed research, controlled preprints and official platform documentation.
+The AI Visibility Evidence Model is a reference model that orders the publisher-side factors behind AI visibility by strength of evidence. It defines five factors: Topical Relevance, Machine Access, Entity Consistency, Extractability and Independent Corroboration, and assigns each a documented evidence grade based on peer-reviewed research, controlled preprints and official platform documentation.
 
 The model exists because the field still lacks a concise publisher-side reference that maps the main actionable factors to explicit evidence grades and primary sources. Every factor in the model carries its grade and its sources, so every statement on this page can be checked against the primary literature listed in the source register below.
 
