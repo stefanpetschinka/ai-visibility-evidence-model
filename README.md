@@ -6,7 +6,8 @@ A reference model that orders the publisher-side factors behind AI visibility by
 
 This repository is the Markdown mirror of the reference document. The website version is canonical; grades move as evidence accumulates, and every change to the model is committed here with a dated history.
 
-**Status: July 31, 2026**
+First published: July 30, 2026
+Revised: August 30, 2026
 
 **Version:** 1.0  
 **DOI — Version 1.0:** [10.5281/zenodo.21766951](https://doi.org/10.5281/zenodo.21766951)  
@@ -43,7 +44,7 @@ One boundary is deliberate: the model orders the publisher-side factors that can
 
 Each factor additionally carries its mechanism type. A gate is a binary precondition, a driver influences outcomes gradually, and hygiene reduces errors or ambiguity. Mechanism type and evidence grade are separate dimensions: a factor can be a hard gate on weak empirical evidence, or a soft driver on strong evidence. The hygiene label does not mean that a factor creates no visibility benefit; it means that the documented mechanism in this model is primarily error reduction or disambiguation, while any independent visibility uplift has not been isolated by the cited evidence.
 
-These four grades are this model's own scale, and it is deliberately conservative. A factor rated C can still be practically relevant: the available evidence is correlational, triangulated or transferred from benchmark settings rather than causally isolated in open production systems. Grade C therefore limits the strength of the claim; it does not turn missing causal proof into evidence of no effect. Grades move as evidence accumulates, and this page carries a visible revision date for that reason.
+These four grades are this model's own scale, and it is deliberately conservative. A factor rated C can still be practically relevant: the available evidence is correlational, triangulated or transferred from benchmark settings rather than causally isolated in open production systems. Grade C therefore limits the strength of the claim; it does not turn missing causal proof into evidence of no effect. Grades move as evidence accumulates.
 
 ## 04 The Five Factors
 
