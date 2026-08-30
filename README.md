@@ -106,7 +106,7 @@ Every claim in this model was verified against its source: the papers, official 
 
 **Disclosure:** This reference model is published by richresults.ai and authored by Stefan Petschinka, who also developed the linked AEO Mastery Framework. The source assessment, synthesis and evidence grades are the author's own work and have not undergone external peer review.
 
-Three conditions define how the findings in this model should be interpreted. Production systems are non-deterministic, so individual observations are measurements rather than isolated causal proof. Models and retrieval methods change, so findings carry dates and evidence grades can be updated as new evidence accumulates. Live answer engines do not currently allow a single publisher-side intervention to be causally isolated end to end; the evidence grades therefore distinguish what is directly demonstrated, what is transferred from controlled settings and what remains open. This keeps the model actionable without overstating certainty.
+Three conditions define how the findings in this model should be interpreted. Production systems are non-deterministic, so individual observations are measurements rather than isolated causal proof. Models and retrieval methods change, so evidence grades can be updated as new evidence accumulates. Live answer engines do not currently allow a single publisher-side intervention to be causally isolated end to end; the evidence grades therefore distinguish what is directly demonstrated, what is transferred from controlled settings and what remains open. This keeps the model actionable without overstating certainty.
 
 ## 08 Source Register
 
